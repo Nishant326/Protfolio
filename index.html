@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Protfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--header-->
+    <header class="header">
+      <div class="navContaner">
+        <div class="rightNav">
+          <a href="#" class="logo">Protfolio</a>
+        </div>
+        <div class="leftsection">
+          <i class="fa-solid fa-bars" id="menu-icon"></i>
+          <i class="fa-solid fa-xmark" id="cross"></i>
+
+          <nav class="nav">
+            <div class="nav-contain">
+              <a href="#home" class="active">Home</a>
+              <a href="#about">About</a>
+              <a href="#skill">Skill</a>
+              <a href="#protfolio">Protfolio</a>
+              <a href="#contact">Contact</a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!--home section design-->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Nishant Rawani</h1>
+        <h3>And I'm a <span>Frontend Developer </span></h3>
+        <p>
+          I'm a passionate full stack web developer with hands-on experience in
+          building dynamic websites. I enjoy turning ideas into real-world
+          projects using modern web technologies like MERN stack. Focused,
+          curious, and always eager to learn and grow in the tech world.
+        </p>
+        <div class="social-media">
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+        <a href="#" class="btn">Downlod-CV</a>
+      </div>
+      <div class="home-img">
+        <img
+          src="/assets/WhatsApp Image 2025-06-16 at 13.11.15_d8283bbd.jpg"
+          alt="home image"
+          class="homeImage"
+        />
+      </div>
+    </section>
+    <!--about section-->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img
+          src="/assets/WhatsApp Image 2025-06-16 at 13.11.26_c2f37f39.jpg"
+          alt=""
+        />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Full Stack Web Developer</h3>
+        <p>
+          I am a dedicated and passionate full stack web developer, driven by
+          curiosity and creativity in solving real-world problems through
+          technology. With hands-on experience in the MERN stack (MongoDB,
+          Express, React, Node.js), I enjoy building dynamic, user-friendly
+          applications that make a difference. I believe in writing clean,
+          maintainable code and continuously improving my skills through
+          learning and practice. Whether it's designing responsive interfaces,
+          handling server-side logic, or working with databases, I take pride in
+          every step of the development process. Apart from coding, I value
+          teamwork, collaboration, and the ability to adapt in fast-paced
+          environments. I'm always exploring new tools, libraries, and
+          frameworks to stay updated with the industry. With a strong foundation
+          in both frontend and backend development, I aim to contribute
+          meaningfully to every project I take on and constantly grow as a
+          developer and problem-solver.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+    <!--Skill section-->
+    <section class="skill" id="skill">
+      <h2 id="box-heading" class="heading">My <span>Skill</span></h2>
+      <div class="skill-container">
+        <div class="programing">
+          <i class="fa-solid fa-code"></i>
+          <h3>Programing</h3>
+          <ul>
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+        <div class="programing">
+          <i class="fa-solid fa-gear"></i>
+          <h3>FrameWork/Library</h3>
+          <ul>
+            <li>React</li>
+            <li>NodeJS</li>
+            <li>Express</li>
+            <li>EJS</li>
+            <li>Bootstrap</li>
+            <li>Telwind</li>
+          </ul>
+        </div>
+        <div class="programing">
+          <i class="fa-solid fa-database"></i>
+          <h3>Database</h3>
+          <ul>
+            <li>MongoDB</li>
+            <li>MySQL</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Protfolio section -->
+    <section class="protfolio" id="protfolio   ">
+      <h2 class="heading" id="project-heading">Latest <span>Project</span></h2>
+      <div class="protfolio-container">
+        <div class="protfolio-box">
+          <!-- <img src="./assets/news.png" alt="news web photo"  class="protfolio-img"> -->
+          <div class="profolio-design">
+            <h4>Wanderlust</h4>
+            <a href="" class="btn-2"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i> Checkout</a
+            >
+            <a href="" class="btn-2"
+              ><i class="fa-brands fa-github"></i> repo</a
+            >
+          </div>
+        </div>
+        <div class="protfolio-box">
+          <!-- <img src="./assets/news.png" alt="news web photo"  class="protfolio-img"> -->
+          <div class="profolio-design">
+            <h4>Travler Blog</h4>
+            <a href="" class="btn-2"
+              ><i class="fa-brands fa-github"></i> repo</a
+            >
+          </div>
+        </div>
+        <div class="protfolio-box">
+          <!-- <img src="./assets/news.png" alt="news web photo"  class="protfolio-img"> -->
+          <div class="profolio-design">
+            <h4>Password</h4>
+              <a href="" class="btn-2"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i> Checkout</a
+            >
+            <a href="" class="btn-2"
+              ><i class="fa-brands fa-github"></i> repo</a
+            >
+          </div>
+        </div>
+        <div class="protfolio-box">
+          <!-- <img src="./assets/news.png" alt="news web photo"  class="protfolio-img"> -->
+          <div class="profolio-design">
+            <h4>Spotify-replica</h4>
+            <a href="" class="btn-2"
+              ><i class="fa-brands fa-github"></i> repo</a
+            >
+          </div>
+        </div>
+
+        <div class="protfolio-box">
+          <!-- <img src="./assets/news.png" alt="news web photo"  class="protfolio-img"> -->
+          <div class="profolio-design">
+            <h4>Todo-App</h4>
+             <a href="" class="btn-2"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i> Checkout</a
+            >
+            <a href="" class="btn-2"
+              ><i class="fa-brands fa-github"></i> repo</a
+            >
+          </div>
+        </div>
+        <div class="protfolio-box">
+          <!-- <img src="./assets/news.png" alt="news web photo"  class="protfolio-img"> -->
+          <div class="profolio-design">
+            <h4>Printo-Clone</h4>
+             <a href="" class="btn-2"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i> Checkout</a
+            >
+            <a href="" class="btn-2"
+              ><i class="fa-brands fa-github"></i> repo</a
+            >
+          </div>
+        </div>
+        <div class="protfolio-box">
+          <!-- <img src="./assets/news.png" alt="news web photo"  class="protfolio-img"> -->
+          <div class="profolio-design">
+            <h4>Simon Game</h4>
+             <a href="" class="btn-2"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i> Checkout</a
+            >
+            <a href="" class="btn-2"
+              ><i class="fa-brands fa-github"></i> repo</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Contact bar-->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" name="Fullname" placeholder="Full Name" />
+          <input type="email" name="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" name="mobile-no" placeholder="Mobile Number" />
+          <input
+            type="text"
+            name="email-subject"
+            placeholder="Email Subject"
+          />
+        </div>
+        <div class="input-box">
+          <textarea
+            name="Message"
+            id="Message"
+            placeholder="Enter Your Message"
+          ></textarea>
+        </div>
+        <input type="submit" class="btn" value="Send Message" />
+      </form>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
