@@ -30,14 +30,13 @@ section {
 .header {
   position: sticky;
   top: 0;
-  height:6rem;
+  height: 6rem;
   background-color: var(--bg-color);
 }
 
 .navContaner {
   display: flex;
   justify-content: space-between;
-  justify-items: center;
 }
 
 #menu-icon {
@@ -276,10 +275,9 @@ span {
   letter-spacing: 0.1rem;
   font-weight: 400;
   transition: 0.5s ease;
-
 }
 
-.btn-2:hover{
+.btn-2:hover {
   box-shadow: none;
 }
 .contact h2 {
@@ -370,11 +368,15 @@ span {
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: right;
+    justify-content: center;
     background-color: var(--bg-color);
-    margin-right: 1rem;
+    margin-right: 1.5rem;
   }
-   .nav-contain:hover{
-        border: 2px solid var(--main-color) ;
+  .nav-contain:hover {
+    border: 2px solid var(--main-color);
+  }
+  .profolio-design > h4 {
+    font-size: 2.5rem;
+    color: var(--text-color);
   }
 }
